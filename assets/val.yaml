@@ -1,0 +1,8 @@
+names:
+  0: person
+  1: phone
+nc: 2
+path: ../../../datasets/CCTV-Inspection-room/test/person-phone/UAT
+train:
+val:
+- BANGNA_select_data_test_post_prd_032024/images

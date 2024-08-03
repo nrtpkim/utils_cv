@@ -1,0 +1,37 @@
+# Ignore AI model weights
+*.pt
+*.h5
+*.pth
+*.ckpt  # Checkpoint files
+*.onnx  # ONNX format
+*.tflite  # TensorFlow Lite models
+*.pb  # TensorFlow models
+*.joblib  # Scikit-learn models
+*.sav  # Scikit-learn models
+*.pkl  # Pickle files
+*.model  # Generic model files
+*.weights  # Darknet model weights
+
+# Ignore video files
+*.mp4
+*.mov
+*.avi
+*.flv
+*.wmv
+*.mkv
+*.webm
+
+# Ignore image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.webp
+
+# Ignore label file
+*.json
+*.txt
+*labels.cache

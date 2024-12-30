@@ -35,3 +35,7 @@
 *.json
 *.txt
 *labels.cache
+weight/*
+*events.out.*
+*.yaml
+*.csv

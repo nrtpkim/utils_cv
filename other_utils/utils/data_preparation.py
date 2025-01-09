@@ -85,9 +85,8 @@ def get_data(TASK, MAIN_DATA_FOLDER):
                             entry["label_extension"] = ".txt"
 
                         all_data.extend(data)
-
             df = pd.DataFrame(all_data)
-
+            
         return df
     except Exception as e:
         logging.error(f"[utils_data_preparation] get_data : {e}")
